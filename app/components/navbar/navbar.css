@@ -2,11 +2,10 @@
     background-color: #9D5CFD ;
     color: white;
     font-weight: bold;
-    padding:0 15px;
 }
 
 li{
-    padding: 5px;
+    padding:5px 15px;
     border-radius: 4px;
 }
 li:hover{

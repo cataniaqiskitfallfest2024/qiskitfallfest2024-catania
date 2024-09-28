@@ -15,7 +15,7 @@ const About = () => {
         <span className='font-bold'>Welcome to the Qiskit Fall Fest 2024 / Catania</span>
         <div>We are thrilled to invite you to the most exciting global event about quantum computing promoted by IBM Quantum and the Qiskit community: the Qiskit Fall Fest!</div>
         <div className="relative p-6 italic text-gray-600 border-l-4 border-[#FF7EB5] bg-gray-50 my-4">
-          The Qiskit Fall Fest is a collection of quantum computing events on college campuses around the world. Every Fall Fest event is organized and run by the students on each campus, with support from IBM Quantum. Student leaders work alongside IBM to design and plan their event, which are run in October and November. Each event is standalone - only made for the students on that particular campus. The events vary from technical hackathons to beginner-friendly challenges, all with the goal of helping to grow the local community&aspo;s skill set.
+          The Qiskit Fall Fest is a collection of quantum computing events on college campuses around the world. Every Fall Fest event is organized and run by the students on each campus, with support from IBM Quantum. Student leaders work alongside IBM to design and plan their event, which are run in October and November. Each event is standalone - only made for the students on that particular campus. The events vary from technical hackathons to beginner-friendly challenges, all with the goal of helping to grow the local community's skill set.
           qiskit.org
           This year a Qiskit Fall Fest event will be held also in Catania and it will be hosted by the Università degli Studi di Catania, Italy
         </div>

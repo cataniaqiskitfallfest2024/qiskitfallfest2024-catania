@@ -101,7 +101,7 @@ const Organizers = () => {
                     <p className='text-sm text-center'> (Social Media Manager)</p>
                 </Typography>
                 <Typography variant="caption" sx={{ color: 'text.secondary'}}>
-                Master's Student in Computer Science @ University of Catania 
+                Master&aspo;s Student in Computer Science @ University of Catania 
                 </Typography>
             </CardContent>
             <CardActions sx={{justifyContent: "center", padding:'2px'}}> 
@@ -126,7 +126,7 @@ const Organizers = () => {
                     <p className='text-sm text-center'> (Web dev.)</p>
                 </Typography>
                 <Typography variant="caption" sx={{ color: 'text.secondary'}}>
-                 Master's Student in Computer Science @ University of Catania 
+                 Master&aspo;s Student in Computer Science @ University of Catania 
                 </Typography>
             </CardContent>
             <CardActions sx={{justifyContent: "center", padding:'2px'}}> 
@@ -157,7 +157,7 @@ const Organizers = () => {
                     <p className='text-sm text-center'> (Speaker)</p>
                 </Typography>
                 <Typography variant="caption" sx={{ color: 'text.secondary'}}>
-                 Master's Student in Computer Science @ University of Catania
+                 Master&aspo;s Student in Computer Science @ University of Catania
                 </Typography>
             </CardContent>
             <CardActions sx={{justifyContent: "center", padding:'2px'}}> 
@@ -182,7 +182,7 @@ const Organizers = () => {
                     <p className='text-sm text-center'> (Social Media Manager)</p>
                 </Typography>
                 <Typography variant="caption" sx={{ color: 'text.secondary'}}>
-                Master's Student in Computer Science @ University of Catania
+                Master&aspo;s Student in Computer Science @ University of Catania
                 </Typography>
             </CardContent >
             <CardActions sx={{justifyContent: "center", padding:'2px'}}> 
@@ -207,7 +207,7 @@ const Organizers = () => {
                     <p className='text-sm text-center'> (Speaker)</p>
                 </Typography>
                 <Typography variant="caption" sx={{ color: 'text.secondary'}}>
-                Master's Student in Computer Science @ University of Catania
+                Master&aspo;s Student in Computer Science @ University of Catania
                 </Typography>
             </CardContent>
             <CardActions sx={{justifyContent: "center", padding:'2px'}}> 
@@ -237,7 +237,7 @@ const Organizers = () => {
                     <p className='text-sm text-center'> (Speaker)</p>
                 </Typography>
                 <Typography variant="caption" sx={{ color: 'text.secondary'}}>
-                Master's Student in Computer Science @ University of Catania
+                Master&aspo;s Student in Computer Science @ University of Catania
                 </Typography>
             </CardContent>
             <CardActions sx={{justifyContent: "center", padding:'2px'}}> 

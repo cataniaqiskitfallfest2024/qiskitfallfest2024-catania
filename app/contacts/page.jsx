@@ -13,7 +13,7 @@ const contacts = () => {
                         Contacts
                     </h1>
                     <p className="text-base sm:text-lg lg:text-xl italic text-center mt-10">
-                        If you haven't found an answer to your question in the FAQ section, send us an email or write to us on IG
+                        If you haven&aspo;t found an answer to your question in the FAQ section, send us an email or write to us on IG
                     </p>
                     <div className="flex flex-col sm:flex-row justify-center items-center gap-5 mt-16">
                         <span className="flex items-center bg-purple-600 hover:bg-[#9D5CFD] text-white font-bold py-2 px-4 rounded text-sm sm:text-base lg:text-lg">

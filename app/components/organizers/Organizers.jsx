@@ -21,7 +21,7 @@ const Organizers = () => {
             <CardMedia
                 component="img"
                 alt="Caterina Viola"
-                image="/assets/profilePic/caterina_viola.jpg"
+                image="/cataniaqiskitfallfest/assets/profilePic/caterina_viola.jpg"
                 sx={{ objectFit: 'cover', width: '100%', height: '160px', width: '160px', objectPosition: 'center', borderRadius: "100%" }}
             />
             <CardContent sx={{textAlign: "center", padding:'5px'}}>
@@ -46,7 +46,7 @@ const Organizers = () => {
             <CardMedia
                 component="img"
                 alt="Giulia Piccitto"
-                image="/assets/profilePic/giulia_piccitto.jpeg"
+                image="/cataniaqiskitfallfest/assets/profilePic/giulia_piccitto.jpeg"
                 sx={{ objectFit: 'cover', width: '100%', height: '160px', width: '160px', objectPosition: 'center', borderRadius: "100%" }}
             />
             <CardContent sx={{textAlign: "center", padding:'5px'}}>
@@ -71,7 +71,7 @@ const Organizers = () => {
             <CardMedia
                 component="img"
                 alt="Elenoire Scaletta"
-                image="/assets/profilePic/elenoire_scaletta.jpg"
+                image="/cataniaqiskitfallfest/assets/profilePic/elenoire_scaletta.jpg"
                 sx={{ objectFit: 'cover', width: '100%', height: '160px', width: '160px', objectPosition: 'center', borderRadius: "100%" }}
             />
             <CardContent sx={{textAlign: "center", padding:'5px'}}>
@@ -92,7 +92,7 @@ const Organizers = () => {
             <CardMedia
                 component="img"
                 alt="Miriana Russo"
-                image="/assets/profilePic/miriana_russo.jpeg"
+                image="/cataniaqiskitfallfest/assets/profilePic/miriana_russo.jpeg"
                 sx={{ objectFit: 'cover', width: '100%', height: '160px', width: '160px', objectPosition: 'center', borderRadius: "100%" }}
             />
             <CardContent sx={{textAlign: "center", padding:'5px'}}>
@@ -117,7 +117,7 @@ const Organizers = () => {
             <CardMedia
                 component="img"
                 alt="Mirko Russo"
-                image="/assets/profilePic/mirko_russo.JPG"
+                image="/cataniaqiskitfallfest/assets/profilePic/mirko_russo.JPG"
                 sx={{ objectFit: 'cover', width: '100%', height: '160px', width: '160px', objectPosition: 'center', borderRadius: "100%" }}
             />
             <CardContent sx={{textAlign: "center", padding:'5px'}}>
@@ -148,7 +148,7 @@ const Organizers = () => {
             <CardMedia
                 component="img"
                 alt="Gabriele Messina"
-                image="/assets/profilePic/gabriele_messina.jpg"
+                image="/cataniaqiskitfallfest/assets/profilePic/gabriele_messina.jpg"
                 sx={{ objectFit: 'cover', width: '100%', height: '160px', width: '160px', objectPosition: 'center', borderRadius: "100%" }}
             />
             <CardContent sx={{textAlign: "center", padding:'5px'}}>
@@ -173,7 +173,7 @@ const Organizers = () => {
             <CardMedia
                 component="img"
                 alt="Marco Gionfriddo"
-                image="/assets/profilePic/marco_gionfriddo.jpg"
+                image="/cataniaqiskitfallfest/assets/profilePic/marco_gionfriddo.jpg"
                 sx={{ objectFit: 'cover', width: '100%', height: '160px', width: '160px', objectPosition: 'center', borderRadius: "100%" }}
             />
             <CardContent sx={{textAlign: "center", padding:'5px'}}>
@@ -198,7 +198,7 @@ const Organizers = () => {
             <CardMedia
                 component="img"
                 alt="Martin Gibilterra"
-                image="/assets/profilePic/martin_gibilterra.jpg"
+                image="/cataniaqiskitfallfest/assets/profilePic/martin_gibilterra.jpg"
                 sx={{ objectFit: 'cover', width: '100%', height: '160px', width: '160px', objectPosition: 'top', borderRadius: "100%" }}
             />
             <CardContent sx={{textAlign: "center", padding:'5px'}}>
@@ -228,7 +228,7 @@ const Organizers = () => {
             <CardMedia
                 component="img"
                 alt="Antonio Scardace"
-                image="/assets/profilePic/antonio_scardace.jpg"
+                image="/cataniaqiskitfallfest/assets/profilePic/antonio_scardace.jpg"
                 sx={{ objectFit: 'cover', width: '100%', height: '160px', width: '160px', objectPosition: 'center', borderRadius: "100%" }}
             />
             <CardContent sx={{textAlign: "center", padding:'5px'}}>
@@ -263,7 +263,7 @@ const Organizers = () => {
             <CardMedia
                 component="img"
                 alt="Andrea Pricoco"
-                image="/assets/profilePic/andrea_pricoco.jpeg"
+                image="/cataniaqiskitfallfest/assets/profilePic/andrea_pricoco.jpeg"
                 sx={{ objectFit: 'cover', width: '100%', height: '160px', width: '160px', objectPosition: 'center', borderRadius: "100%" }}
             />
             <CardContent sx={{textAlign: "center", padding:'5px'}}>

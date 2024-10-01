@@ -19,9 +19,9 @@ export const metadata = {
   title: "Qiskit Fall Fest 2024 / Catania",
   description: "Catania Qiskit Fall Fest 2024",
   icons: {
-    icon: '/favicon.ico', 
-    shortcut: '/favicon-16x16.png', 
-    apple: '/apple-touch-icon.png', 
+    icon: './favicon.ico', 
+    shortcut: './favicon-16x16.png', 
+    apple: './apple-touch-icon.png', 
   },
 };
 

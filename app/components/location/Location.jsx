@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 const Location = () => {
   return (
-    <section id='location' className='my-10'>
+    <section id='location' className='my-20'>
         <div className="flex flex-col justify-center">
           <h1 className="text-6xl font-bold text-center text-[#353A3F]">Location</h1>
           <span className='text-center text-wrap text-sm md:text-lg font-bold mt-5 italic'>Università degli Studi di Catania <br/>

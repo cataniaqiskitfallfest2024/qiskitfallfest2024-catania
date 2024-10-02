@@ -87,7 +87,7 @@ const Navbar = () => {
         isScrolled ? 'bg-white/60 backdrop-blur-lg text-black' : 'bg-black'
       }`}
     >
-      <div className="flex justify-between items-center md:min-h-[50px] md:mx-10">
+      <div className="flex justify-between items-center md:min-h-[50px] md:mx-10" style={{userSelect: 'none'}}>
         <div className="text-lg md:text-3xl font-semibold">
           <Link href={'/'}><span className={`${isScrolled ? 'text-black' : 'text-white'}`}>Qiskit Fall Fest 2024 </span></Link>
           <span className="text-[#FF7EB5] mx-2">/</span>

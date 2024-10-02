@@ -7,7 +7,7 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import ContactPageIcon from '@mui/icons-material/ContactPage';
+import WebSiteIcon from '@mui/icons-material/Language';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import Link from 'next/link';
 const Organizers = () => {
@@ -27,7 +27,6 @@ const Organizers = () => {
             <CardContent sx={{textAlign: "center", padding:'5px'}}>
                 <Typography gutterBottom variant="h5" component="div" sx={{fontWeight: 'bold'}}>
                     Caterina Viola
-                    <p className='text-sm text-center'> (lead organizer)</p>
                 </Typography>
                 <Typography variant="caption" sx={{ color: 'text.secondary'}}>
                 Researcher @ Department of Mathematics and Computer Science, University of Catania
@@ -35,8 +34,8 @@ const Organizers = () => {
             </CardContent>
             <CardActions sx={{justifyContent: "center", padding:'2px'}}> 
                 <Link href={'https://web.dmi.unict.it/docenti/caterina.viola'}>
-                    <Button size="small"><ContactPageIcon className="text-[#9D5CFD]" >
-                        </ContactPageIcon>
+                    <Button size="small"><WebSiteIcon className="text-[#9D5CFD]" >
+                        </WebSiteIcon>
                     </Button>
                 </Link>
             </CardActions>
@@ -52,7 +51,6 @@ const Organizers = () => {
             <CardContent sx={{textAlign: "center", padding:'5px'}}>
                 <Typography gutterBottom variant="h5" component="div" sx={{fontWeight: 'bold'}}>
                     Giulia Piccitto
-                    <p className='text-sm text-center'> (Speaker)</p>
                 </Typography>
                 <Typography variant="caption" sx={{ color: 'text.secondary'}}>
                 Researcher @ Department of Mathematics and Computer Science, University of Catania
@@ -60,8 +58,8 @@ const Organizers = () => {
             </CardContent>
             <CardActions sx={{justifyContent: "center", padding:'2px'}}> 
             <Link href={'https://web.dmi.unict.it/docenti/giulia.piccitto'}>
-                <Button size="small"><ContactPageIcon className="text-[#9D5CFD]" >
-                    </ContactPageIcon>
+                <Button size="small"><WebSiteIcon className="text-[#9D5CFD]" >
+                    </WebSiteIcon>
                 </Button>
             </Link>
             </CardActions>
@@ -77,7 +75,6 @@ const Organizers = () => {
             <CardContent sx={{textAlign: "center", padding:'5px'}}>
                 <Typography gutterBottom variant="h5" component="div" sx={{fontWeight: 'bold'}}>
                     Elenoire Scaletta
-                    <p className='text-sm text-center'> (Speaker)</p>
                 </Typography>
                 <Typography variant="caption" sx={{ color: 'text.secondary'}}>
                 B.Sc. Student in Computer Science @ University of Catania 
@@ -98,7 +95,6 @@ const Organizers = () => {
             <CardContent sx={{textAlign: "center", padding:'5px'}}>
                 <Typography gutterBottom variant="h5" component="div" sx={{fontWeight: 'bold'}}>
                     Miriana Russo
-                    <p className='text-sm text-center'> (Social Media Manager)</p>
                 </Typography>
                 <Typography variant="caption" sx={{ color: 'text.secondary'}}>
                 Master's Student in Computer Science @ University of Catania 
@@ -123,7 +119,6 @@ const Organizers = () => {
             <CardContent sx={{textAlign: "center", padding:'5px'}}>
                 <Typography gutterBottom variant="h5" component="div" sx={{fontWeight: 'bold'}}>
                     Mirko Russo
-                    <p className='text-sm text-center'> (Web dev.)</p>
                 </Typography>
                 <Typography variant="caption" sx={{ color: 'text.secondary'}}>
                  Master's Student in Computer Science @ University of Catania 
@@ -154,7 +149,6 @@ const Organizers = () => {
             <CardContent sx={{textAlign: "center", padding:'5px'}}>
                 <Typography gutterBottom variant="h5" component="div" sx={{fontWeight: 'bold'}}>
                     Gabriele Messina
-                    <p className='text-sm text-center'> (Speaker)</p>
                 </Typography>
                 <Typography variant="caption" sx={{ color: 'text.secondary'}}>
                  Master's Student in Computer Science @ University of Catania
@@ -164,6 +158,11 @@ const Organizers = () => {
             <Link href={'https://www.linkedin.com/in/messina-gabriele/'}>
                 <Button size="small"><LinkedInIcon className="text-[#9D5CFD]" >
                     </LinkedInIcon>
+                </Button>
+            </Link>
+            <Link href={'https://github.com/GabrieleMessina'}>
+                <Button size="small"><GitHubIcon className="text-[#9D5CFD]" >
+                    </GitHubIcon>
                 </Button>
             </Link>
             </CardActions>
@@ -179,7 +178,6 @@ const Organizers = () => {
             <CardContent sx={{textAlign: "center", padding:'5px'}}>
                 <Typography gutterBottom variant="h5" component="div" sx={{fontWeight: 'bold'}}>
                 Marco Gionfriddo
-                    <p className='text-sm text-center'> (Social Media Manager)</p>
                 </Typography>
                 <Typography variant="caption" sx={{ color: 'text.secondary'}}>
                 Master's Student in Computer Science @ University of Catania
@@ -204,7 +202,6 @@ const Organizers = () => {
             <CardContent sx={{textAlign: "center", padding:'5px'}}>
                 <Typography gutterBottom variant="h5" component="div" sx={{fontWeight: 'bold'}}>
                     Martin Gibilterra
-                    <p className='text-sm text-center'> (Speaker)</p>
                 </Typography>
                 <Typography variant="caption" sx={{ color: 'text.secondary'}}>
                 Master's Student in Computer Science @ University of Catania
@@ -234,7 +231,6 @@ const Organizers = () => {
             <CardContent sx={{textAlign: "center", padding:'5px'}}>
                 <Typography gutterBottom variant="h5" component="div" sx={{fontWeight: 'bold'}}>
                     Antonio Scardace
-                    <p className='text-sm text-center'> (Speaker)</p>
                 </Typography>
                 <Typography variant="caption" sx={{ color: 'text.secondary'}}>
                 Master's Student in Computer Science @ University of Catania
@@ -269,7 +265,6 @@ const Organizers = () => {
             <CardContent sx={{textAlign: "center", padding:'5px'}}>
                 <Typography gutterBottom variant="h5" component="div" sx={{fontWeight: 'bold'}}>
                     Andrea Pricoco
-                    <p className='text-sm text-center'> (Speaker)</p>
                 </Typography>
                 <Typography variant="caption" sx={{ color: 'text.secondary'}}>
                 B.Sc. Student in Computer Science @ University of Catania

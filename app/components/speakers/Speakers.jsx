@@ -7,11 +7,14 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import WebSiteIcon from '@mui/icons-material/Language';
+import Link from 'next/link';
+
 const Speakers = () => {
   return (
     <section id='speakers' className='p-5'>
         <div className="flex flex-col justify-center ">
-          <h1 className="text-6xl font-bold text-center mt-5 text-[#353A3F]">Speakers</h1>
+          <h1 className="text-6xl font-bold text-center mt-5 text-[#353A3F]">Invited Speakers</h1>
           
         </div>
         <div className='flex justify-around md:gap-y-4 md:gap-x-4 flex-wrap md:px-11 mt-10'>
@@ -31,7 +34,11 @@ const Speakers = () => {
                   </Typography>
               </CardContent>
               <CardActions sx={{justifyContent: "center"}}>
-              <Button size="small"><LinkedInIcon className="text-[#9D5CFD]"  ></LinkedInIcon></Button>
+                <Link href={'https://web.dmi.unict.it/docenti/simone.faro'}>
+                    <Button size="small"><WebSiteIcon className="text-[#9D5CFD]" >
+                        </WebSiteIcon>
+                    </Button>
+                </Link>
               </CardActions>
           </Card>
           <Card sx={{ maxWidth: 200, minHeight:400, bgcolor:'white', boxShadow:'none' }} align='center'>

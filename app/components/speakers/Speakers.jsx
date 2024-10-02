@@ -19,7 +19,7 @@ const Speakers = () => {
               <CardMedia
                   component="img"
                   alt="Simone Faro"
-                  image="/assets/profilePic/simone_faro.jpg"
+                  image="/cataniaqiskitfallfest/assets/profilePic/simone_faro.jpg"
                   sx={{ objectFit: 'cover', width: '100%', height: '160px', width: '160px', objectPosition: 'center', borderRadius: "100%" }}
               />
               <CardContent sx={{textAlign: "center"}}>
@@ -38,7 +38,7 @@ const Speakers = () => {
               <CardMedia
                   component="img"
                   alt="TBA"
-                  image="/assets/profilePic/unknown.jpg"
+                  image="/cataniaqiskitfallfest/assets/profilePic/unknown.jpg"
                   sx={{ objectFit: 'cover', width: '100%', height: '160px', width: '160px', objectPosition: 'center', borderRadius: "100%" }}
               />
               <CardContent sx={{textAlign: "center"}}>
@@ -57,7 +57,7 @@ const Speakers = () => {
               <CardMedia
                   component="img"
                   alt="TBA"
-                  image="/assets/profilePic/unknown.jpg"
+                  image="/cataniaqiskitfallfest/assets/profilePic/unknown.jpg"
                   sx={{ objectFit: 'cover', width: '100%', height: '160px', width: '160px', objectPosition: 'center', borderRadius: "100%" }}
               />
               <CardContent sx={{textAlign: "center"}}>

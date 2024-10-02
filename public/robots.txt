@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /cataniaqiskitfallfest/_next/
+Allow: /

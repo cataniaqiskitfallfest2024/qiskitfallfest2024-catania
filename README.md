@@ -5,7 +5,7 @@ Welcome to the Catania Qiskit Fall Fest website! This site provides information 
 ## Description
 The Catania Qiskit Fall Fest website is designed to provide attendees with all the necessary information about the event. The site includes sections for the event's welcome message, about the event, partners, speakers, agenda, location, organizers, and sponsors.
 
-👉🏻 https://www.dmi.unict.it/cataniaqiskitfallfest
+👉🏻 [https://www.dmi.unict.it/cataniaqiskitfallfest](https://www.dmi.unict.it/cataniaqiskitfallfest/index.html)
 
 
 ## Installation

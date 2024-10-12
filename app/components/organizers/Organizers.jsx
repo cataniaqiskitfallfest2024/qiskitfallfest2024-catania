@@ -57,11 +57,16 @@ const Organizers = () => {
                 </Typography>
             </CardContent>
             <CardActions sx={{justifyContent: "center", padding:'2px'}}> 
-            <Link href={'https://web.dmi.unict.it/docenti/giulia.piccitto'}>
-                <Button size="small"><WebSiteIcon className="text-[#9D5CFD]" >
-                    </WebSiteIcon>
-                </Button>
-            </Link>
+                <Link href={'https://web.dmi.unict.it/docenti/giulia.piccitto'}>
+                    <Button size="small"><WebSiteIcon className="text-[#9D5CFD]" >
+                        </WebSiteIcon>
+                    </Button>
+                </Link>
+                <Link href={'https://www.linkedin.com/in/giulia-piccitto-b54491b5/'}>
+                    <Button size="small"><LinkedInIcon className="text-[#9D5CFD]" >
+                        </LinkedInIcon>
+                    </Button>
+                </Link>
             </CardActions>
         </Card>
 
@@ -81,7 +86,11 @@ const Organizers = () => {
                 </Typography>
             </CardContent>
             <CardActions sx={{justifyContent: "center", padding:'2px'}}> 
-            <Button size="small"><LinkedInIcon className="text-[#9D5CFD]" ></LinkedInIcon></Button>
+                <Link href={'https://www.linkedin.com/in/elenoire-scaletta-129667282/'}>
+                    <Button size="small"><LinkedInIcon className="text-[#9D5CFD]" >
+                        </LinkedInIcon>
+                    </Button>
+                </Link>
             </CardActions>
         </Card>
 
@@ -184,6 +193,11 @@ const Organizers = () => {
                 </Typography>
             </CardContent >
             <CardActions sx={{justifyContent: "center", padding:'2px'}}> 
+            <Link href={'https://www.linkedin.com/in/marco-gionfriddo-042183165/'}>
+                <Button size="small"><LinkedInIcon className="text-[#9D5CFD]" >
+                    </LinkedInIcon>
+                </Button>
+            </Link>
             <Link href={'https://www.instagram.com/marcoging/'}>
                 <Button size="small"><InstagramIcon className="text-[#9D5CFD]" >
                     </InstagramIcon>
@@ -270,7 +284,7 @@ const Organizers = () => {
                 B.Sc. Student in Computer Science @ University of Catania
                 </Typography>
             </CardContent>
-            <CardActions sx={{justifyContent: "center", padding:'2px'}}> 
+            <CardActions sx={{justifyContent: "center", padding:'2px'}}>
             <Link href={'https://www.instagram.com/andrea_pricoco/'}>
                 <Button size="small"><InstagramIcon className="text-[#9D5CFD]" >
                     </InstagramIcon>

@@ -19,28 +19,35 @@ const Schedule = () => {
             </tr>
           </thead>
           <tbody className="text-xs md:text-base font-light">
-            <tr style={{height: '4rem', borderBottom: "1px solid lightgray"}}>
-              <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}}><span className="opacity-80">15:00 - 15:40</span><br /> <span className="md:ms-3 block">Introduction Qiskit 101 (C. Viola)</span></td>
-              <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}} rowSpan='2'><span className="opacity-80">15:00 - 16:30</span><br /> <span className="md:ms-3 block">LAB 2 (A. Scardace - M. Gibilterra)</span></td>
-              <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" rowSpan='2'><span className="opacity-80">15:00 - 16:45</span><br /> <span className="md:ms-3 block">LAB 3 (G. Messina)</span></td>
+          <tr style={{height: '4rem', borderBottom: "1px solid lightgray"}}>
+              <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}}><span className="opacity-80">15:00 - 15:15</span><br /> <span className="md:ms-3 block">Saluti Istituzionali</span></td>
+              <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}} rowSpan='2'><span className="opacity-80">15:00 - 15:45</span><br /> <span className="md:ms-3 block">Error Mitigation (G. Piccitto)</span></td>
+              <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" rowSpan='2'><span className="opacity-80">15:00 - 15:45</span><br /> <span className="md:ms-3 block">QFT (Schilirò)</span></td>
             </tr>
             <tr style={{height: '4rem', borderBottom: "1px solid lightgray"}}>
-              <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}}><span className="opacity-80">15:45 - 16:45</span><br /> <span className="md:ms-3 block">Quantum Basics (G. Piccitto)</span></td>
+              <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}}><span className="opacity-80">15:15 - 15:55</span><br /> <span className="md:ms-3 block">Qiskti 101 (C. Viola)</span></td>
             </tr>
             <tr style={{height: '4rem', borderBottom: "1px solid lightgray"}}>
-              <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}}><span className="opacity-80">16:45 - 17:15</span><br /> <span className="md:ms-3 block">Coffee Break</span></td>
-              <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}}><span className="opacity-80">16:45 - 17:15</span><br /> <span className="md:ms-3 block">Coffee Break</span></td>
+              <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}} rowSpan='2'><span className="opacity-80">16:00 - 17:00</span><br /> <span className="md:ms-3 block">Quantum Basics (G. Piccitto)</span></td>
+              <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}}><span className="opacity-80">15:45 - 16:15</span><br /> <span className="md:ms-3 block">Master in Quantum Technologies Presentation (E. Paladino)</span></td>
+              <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white"><span className="opacity-80">15:45 - 16:15</span><br /> <span className="md:ms-3 block">Presentazione Progetti</span></td>
+            </tr>
+            <tr style={{height: '4rem', borderBottom: "1px solid lightgray"}}>
+              <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}}><span className="opacity-80">16:15 - 17:00</span><br /> <span className="md:ms-3 block">TBA</span></td>
+              <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white"><span className="opacity-80">16:15 - 16:45</span><br /> <span className="md:ms-3 block">Application of Quantum computation to real world (M. Gibilterra)</span></td>
+            </tr>
+            <tr style={{height: '4rem', borderBottom: "1px solid lightgray"}}>
+              <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}}><span className="opacity-80">17:00 - 17:30</span><br /> <span className="md:ms-3 block">Coffee Break</span></td>
+              <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}}><span className="opacity-80">17:00 - 17:30</span><br /> <span className="md:ms-3 block">Coffee Break</span></td>
               <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white"><span className="opacity-80">16:45 - 17:15</span><br /> <span className="md:ms-3 block">Coffee Break</span></td>
             </tr>
             <tr style={{height: '4rem', borderBottom: "1px solid lightgray"}}>
-              <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}}><span className="opacity-80">17:15 - 18:00</span><br /> <span className="md:ms-3 block">LAB 1 (M. Gionfriddo - A. Pricoco - E. Scaletta)</span></td>
-              <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}}><span className="opacity-80">17:15 - 18:15</span><br /> <span className="md:ms-3 block">Error Mitigation (G. Piccitto)</span></td>
-              <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white"><span className="opacity-80">17:15 - 18:00</span><br /> <span className="md:ms-3 block">TBA</span></td>
+              <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}}><span className="opacity-80">17:30 - 18:15</span><br /> <span className="md:ms-3 block">LAB 1 (M. Gionfriddo - A. Pricoco - E. Scaletta)</span></td>
+              <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" rowSpan='2' style={{borderRight: "2px dashed #FF7EB5"}}><span className="opacity-80">17:30 - 19:00</span><br /> <span className="md:ms-3 block">LAB 2 (C. Viola - M. Gibilterra)</span></td>
+              <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" rowSpan='2'><span className="opacity-80">17:15 - 19:00</span><br /> <span className="md:ms-3 block">LAB 3 (G.Messina)</span></td>
             </tr>
             <tr style={{height: '4rem'}}>
-              <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}}><span className="opacity-80">18:00 - 18:50</span><br /> <span className="md:ms-3 block">Bell inequalities and the No-Cloning theorem (S. Faro)</span></td>
-              <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}}><span className="opacity-80">18:15 - 19:00</span><br /> <span className="md:ms-3 block">TBA</span></td>
-              <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white"><span className="opacity-80">18:00 - 18:50</span><br /> <span className="md:ms-3 block">Application of Quantum computation to real world (M. Gibilterra)</span></td>
+              <td className="py-2 px-3 text-left hover:bg-[#FF7EB5] hover:text-white" style={{borderRight: "2px dashed #FF7EB5"}}><span className="opacity-80">18:15 - 19:00</span><br /> <span className="md:ms-3 block">Bell inequalities and the No-Cloning theorem (S. Faro)</span></td>
             </tr>
           </tbody>
         </table>

@@ -12,12 +12,12 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import Link from 'next/link';
 const Organizers = () => {
   return (
-    <section id='organizers' className=' bg-[#F4F4F4] mt-5 p-5'>
+    <section id='organizers' className=' mt-5 p-5'>
         <div className="flex flex-col justify-center md:m-5">
-          <h1 className="text-6xl font-bold text-center text-[#9D5CFD]">Organizers</h1>
+          <h1 className="text-6xl font-bold text-center text-[#353A3F]">Organizers</h1>
         </div>
         <div className='flex justify-around md:gap-y-4 md:gap-x-4 flex-wrap md:px-11 mt-10'>
-        <Card sx={{ maxWidth: 250, maxHeight:400, bgcolor:'#F4F4F4', boxShadow:'none', margin:'10px'}} align='center'>
+        <Card sx={{ maxWidth: 250, maxHeight:400, bgcolor:'transparent', boxShadow:'none', margin:'10px'}} align='center'>
             <CardMedia
                 component="img"
                 alt="Caterina Viola"
@@ -41,7 +41,7 @@ const Organizers = () => {
             </CardActions>
         </Card>
 
-        <Card sx={{ maxWidth: 250, maxHeight:400, bgcolor:'#F4F4F4', boxShadow:'none', margin:'10px'}} align='center'>
+        <Card sx={{ maxWidth: 250, maxHeight:400, bgcolor:'transparent', boxShadow:'none', margin:'10px'}} align='center'>
             <CardMedia
                 component="img"
                 alt="Giulia Piccitto"
@@ -70,7 +70,7 @@ const Organizers = () => {
             </CardActions>
         </Card>
 
-        <Card sx={{ maxWidth: 250, maxHeight:400, bgcolor:'#F4F4F4', boxShadow:'none', margin:'10px'}} align='center'>
+        <Card sx={{ maxWidth: 250, maxHeight:400, bgcolor:'transparent', boxShadow:'none', margin:'10px'}} align='center'>
             <CardMedia
                 component="img"
                 alt="Elenoire Scaletta"
@@ -94,7 +94,7 @@ const Organizers = () => {
             </CardActions>
         </Card>
 
-        <Card sx={{ maxWidth: 250, maxHeight:400, bgcolor:'#F4F4F4', boxShadow:'none', margin:'10px'}} align='center'>
+        <Card sx={{ maxWidth: 250, maxHeight:400, bgcolor:'transparent', boxShadow:'none', margin:'10px'}} align='center'>
             <CardMedia
                 component="img"
                 alt="Miriana Russo"
@@ -118,7 +118,7 @@ const Organizers = () => {
             </CardActions>
         </Card>
 
-        <Card sx={{ maxWidth: 250, maxHeight:400, bgcolor:'#F4F4F4', boxShadow:'none', margin:'10px'}} align='center'>
+        <Card sx={{ maxWidth: 250, maxHeight:400, bgcolor:'transparent', boxShadow:'none', margin:'10px'}} align='center'>
             <CardMedia
                 component="img"
                 alt="Mirko Russo"
@@ -148,7 +148,7 @@ const Organizers = () => {
             </CardActions >
         </Card>
 
-        <Card sx={{ maxWidth: 250, maxHeight:400, bgcolor:'#F4F4F4', boxShadow:'none', margin:'10px'}} align='center'>
+        <Card sx={{ maxWidth: 250, maxHeight:400, bgcolor:'transparent', boxShadow:'none', margin:'10px'}} align='center'>
             <CardMedia
                 component="img"
                 alt="Gabriele Messina"
@@ -177,7 +177,7 @@ const Organizers = () => {
             </CardActions>
         </Card>
 
-        <Card sx={{ maxWidth: 250, maxHeight:400, bgcolor:'#F4F4F4', boxShadow:'none', margin:'10px'}} align='center'>
+        <Card sx={{ maxWidth: 250, maxHeight:400, bgcolor:'transparent', boxShadow:'none', margin:'10px'}} align='center'>
             <CardMedia
                 component="img"
                 alt="Marco Gionfriddo"
@@ -206,7 +206,7 @@ const Organizers = () => {
             </CardActions>
         </Card>
 
-        <Card sx={{ maxWidth: 250, maxHeight:400, bgcolor:'#F4F4F4', boxShadow:'none', margin:'10px'}} align='center'>
+        <Card sx={{ maxWidth: 250, maxHeight:400, bgcolor:'transparent', boxShadow:'none', margin:'10px'}} align='center'>
             <CardMedia
                 component="img"
                 alt="Martin Gibilterra"
@@ -235,7 +235,7 @@ const Organizers = () => {
             </CardActions>
         </Card>
 
-        <Card sx={{ maxWidth: 250, maxHeight:400, bgcolor:'#F4F4F4', boxShadow:'none', margin:'10px'}} align='center'>
+        <Card sx={{ maxWidth: 250, maxHeight:400, bgcolor:'transparent', boxShadow:'none', margin:'10px'}} align='center'>
             <CardMedia
                 component="img"
                 alt="Antonio Scardace"
@@ -269,7 +269,7 @@ const Organizers = () => {
             </CardActions>
         </Card>
 
-        <Card sx={{ maxWidth: 250, maxHeight:400, bgcolor:'#F4F4F4', boxShadow:'none', margin:'10px'}} align='center'>
+        <Card sx={{ maxWidth: 250, maxHeight:400, bgcolor:'transparent', boxShadow:'none', margin:'10px'}} align='center'>
             <CardMedia
                 component="img"
                 alt="Andrea Pricoco"

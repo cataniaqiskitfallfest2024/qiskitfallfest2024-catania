@@ -127,6 +127,9 @@ const Navbar = () => {
                 <li className={getLinkClass('#location')}>
                   <a href="#location" onClick={() => handleSectionClick('#location')}>Location</a>
                 </li>
+                <li className={getLinkClass('#sponsors')}>
+                  <a href="#sponsors" onClick={() => handleSectionClick('#sponsors')}>Sponsors</a>
+                </li>
                 <li className={getLinkClass('#organizers')}>
                   <a href="#organizers" onClick={() => handleSectionClick('#organizers')}>Organizers</a>
                 </li>
@@ -166,6 +169,9 @@ const Navbar = () => {
                 </li>
                 <li className={getLinkClass('#location')}>
                   <a href="#location" onClick={() => handleSectionClick('#location')}>Location</a>
+                </li>
+                <li className={getLinkClass('#sponsors')}>
+                  <a href="#sponsors" onClick={() => handleSectionClick('#sponsors')}>Sponsors</a>
                 </li>
                 <li className={getLinkClass('#organizers')}>
                   <a href="#organizers" onClick={() => handleSectionClick('#organizers')}>Organizers</a>

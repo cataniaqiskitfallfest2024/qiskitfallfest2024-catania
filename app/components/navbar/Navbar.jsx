@@ -142,8 +142,8 @@ const Navbar = () => {
           <li className={getLinkClass('/faq')}>
             <Link href="/faq" onClick={handleLinkClick}>FAQ</Link>
           </li>
-          <li className={getLinkClass('#register')}>
-            <Link href={'https://www.eventbrite.com/e/catania-qiskit-fall-fest-tickets-1029219452087'} onClick={handleLinkClick} >Register</Link>
+          <li className={getLinkClass('#resources')}>
+            <Link href="https://drive.google.com/drive/folders/1uwq9MkZXUuarttT0X__EpoQCIavHdpjC?usp=sharing"><span style={{fontSize: 'larger', fontWeight: 'bold', color: '#9D5CFD'}}>⤓</span> Resources</Link>
           </li>
         </ul>
       </div>
@@ -185,8 +185,8 @@ const Navbar = () => {
           <li className={getLinkClass('/faq')}>
             <Link href="/faq">FAQ</Link>
           </li>
-          <li className={getLinkClass('#register')}>
-            <Link href="https://www.eventbrite.com/e/catania-qiskit-fall-fest-tickets-1029219452087">Register</Link>
+          <li className={getLinkClass('#resources')}>
+          <Link href="https://drive.google.com/drive/folders/1uwq9MkZXUuarttT0X__EpoQCIavHdpjC?usp=sharing"><span style={{fontSize: 'larger', fontWeight: 'bold', color: '#9D5CFD'}}>⤓</span> Resources</Link>
           </li>
         </ul>
       )}

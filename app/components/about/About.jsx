@@ -70,8 +70,14 @@ const About = () => {
       </div>
 
         <div className='flex justify-center'>
-            <div id='register button' className=' bg-[#9D5CFD] hover:bg-[#924afc] text-white rounded text-center text-2xl font-bold mt-5 flex justify-center md:w-[40%] p-5'>
+            <div id='register button' className=' bg-[#9D5CFD] hover:bg-[#924afc] text-white rounded text-center text-2xl font-bold mt-5 flex justify-center lg:w-[40%] w-[80%] p-5'>
                 <button> <Link href={'https://www.eventbrite.com/e/catania-qiskit-fall-fest-tickets-1029219452087'}>Register here to partecipate!</Link>
+                </button>
+            </div>
+        </div>
+        <div className='flex justify-center'>
+            <div id='register button' className='border border-[#9D5CFD] hover:bg-[#924afc11] rounded text-center text-2xl font-bold mt-5 flex justify-center lg:w-[40%] w-[80%] p-5'>
+                <button> <Link href="https://drive.google.com/drive/folders/1uwq9MkZXUuarttT0X__EpoQCIavHdpjC?usp=sharing"><span style={{fontSize: 'larger', fontWeight: 'bold', color: '#9D5CFD'}}>⤓</span> Resources</Link>
                 </button>
             </div>
         </div>

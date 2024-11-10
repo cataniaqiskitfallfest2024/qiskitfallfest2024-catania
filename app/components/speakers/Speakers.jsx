@@ -74,7 +74,7 @@ const Speakers = () => {
 
                     </CardActions>
                 </Card>
-                {/* <Card sx={{ maxWidth: 200, minHeight: 400, bgcolor: 'white', boxShadow: 'none' }} align='center'>
+                <Card sx={{ maxWidth: 200, minHeight: 400, bgcolor: 'white', boxShadow: 'none' }} align='center'>
                     <CardMedia
                         component="img"
                         alt="Francesco Schillirò"
@@ -86,13 +86,13 @@ const Speakers = () => {
                             Francesco Schillirò
                         </Typography>
                         <Typography variant="caption" sx={{ color: 'text.secondary' }}>
-
+                            Leading Technologist @ INAF Catania Astrophysical Observatory
                         </Typography>
                     </CardContent>
                     <CardActions sx={{ justifyContent: "center" }}>
 
                     </CardActions>
-                </Card> */}
+                </Card>
             </div>
         </section>
     )

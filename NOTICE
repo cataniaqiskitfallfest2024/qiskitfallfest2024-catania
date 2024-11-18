@@ -19,8 +19,7 @@ limitations under the License.
 This project is licensed under the Apache License 2.0. If you use or distribute this code (with or without modifications), you are required to:
 1. Proper attribution to the original authors and providing a link to the original repository. Retain the following attribution in documentation or credits:
    ```
-	This project is based on code originally developed by 
-  - <...> for the "Qiskit Fall Fest 2024 / Catania" event. The original repository is available at https://github.com/cataniaqiskitfallfest2024/qiskitfallfest2024-catania .
+   This project is based on code originally developed by Mirko Russo and Gabriele Messina for the "Qiskit Fall Fest 2024 / Catania" event. The original repository is available at https://github.com/cataniaqiskitfallfest2024/qiskitfallfest2024-catania.
    ``` 
 2. Include the original `LICENSE` and `NOTICE` files in your distribution.
 3. Clearly indicate any modifications made to the original project.
@@ -38,9 +37,14 @@ This project contains contributions from the following third-party sources:
      - Qiskit logo
      - IBM Quantum logo
      - Dipartimento di Matematica e Informatica - UNICT
-     - ...
+     - Digiterzs logo
+     - Fondazione Istituto Tecnico Superiore Steve Jobs logo
+     - Harmonic Innovation Group logo
+     - National Quantum Science and Technology Institute logo
+     - Centro Nazionale di Ricerca in HPC Big Data and Quantum Computing logo
+
     are the property of their respective owners. These logos are used solely for informational and event-related purposes. Redistribution or reuse of these logos without permission from their respective owners is strictly prohibited.
 
-3.  ** Website template and some contents**
+3.  **Website template and some contents**
     - This website is partly inspired / reuses contents from work done for the "Qiskit Fall Fest 2023 @ Palermo" event by Alberto Miserendino, Alessandro Catalano, Gabriele Lo Cascio, Roberto Battaglia, Giovanni La Tona . The original repository is available at https://github.com/QiskitFallFest23-UNIPA/QiskitFallFest23-UNIPA.github.io , distributed under Apache License, Version 2.0.  
      

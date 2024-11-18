@@ -1,0 +1,50 @@
+Qiskit Fall Fest 2024 / Catania
+Copyright 2024 contributors
+
+## License
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at:
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+## Notice to Derivative Works
+This project is licensed under the Apache License 2.0. If you use or distribute this code (with or without modifications), you are required to:
+1. Proper attribution to the original authors and providing a link to the original repository. Retain the following attribution in documentation or credits:
+   ```
+   This project is based on code originally developed by Mirko Russo and Gabriele Messina for the "Qiskit Fall Fest 2024 / Catania" event. The original repository is available at https://github.com/cataniaqiskitfallfest2024/qiskitfallfest2024-catania.
+   ``` 
+2. Include the original `LICENSE` and `NOTICE` files in your distribution.
+3. Clearly indicate any modifications made to the original project.
+4. Adhere to the terms specified in the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+5. Ensure compliance with third-party licensing terms, including those governing logos and branding.
+
+## Contributions
+This project contains contributions from the following third-party sources:
+
+1. **Qiskit Fall Fest 2024 official graphics** (https://qiskit.org/)
+   - Copyright © 2024 IBM Quantum
+
+2. **Logos and Branding**
+    The logos used in this project, including but not limited to:
+     - Qiskit logo
+     - IBM Quantum logo
+     - Dipartimento di Matematica e Informatica - UNICT
+     - Digiterzs logo
+     - Fondazione Istituto Tecnico Superiore Steve Jobs logo
+     - Harmonic Innovation Group logo
+     - National Quantum Science and Technology Institute logo
+     - Centro Nazionale di Ricerca in HPC Big Data and Quantum Computing logo
+
+    are the property of their respective owners. These logos are used solely for informational and event-related purposes. Redistribution or reuse of these logos without permission from their respective owners is strictly prohibited.
+
+3.  **Website template and some contents**
+    - This website is partly inspired / reuses contents from work done for the "Qiskit Fall Fest 2023 @ Palermo" event by Alberto Miserendino, Alessandro Catalano, Gabriele Lo Cascio, Roberto Battaglia, Giovanni La Tona . The original repository is available at https://github.com/QiskitFallFest23-UNIPA/QiskitFallFest23-UNIPA.github.io , distributed under Apache License, Version 2.0.  
+     

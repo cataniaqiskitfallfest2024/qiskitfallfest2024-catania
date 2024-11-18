@@ -28,8 +28,14 @@ const contacts = () => {
                         <ul className="text-base sm:text-lg lg:text-xl italic list-disc px-4">
                             <li className='hover:bg-white hover:text-black'>Marco Gionfriddo</li>
                         </ul>
+                        <h2 className='font-bold mt-5 text-2xl '>Third party contributions</h2>
+                        <ul className="text-base sm:text-lg lg:text-xl italic list-disc px-4">
+                            <li className='hover:bg-white hover:text-black'>This website is partly inspired / reuses contents from work done for the "Qiskit Fall Fest 2023 @ Palermo"
+                                <Link href={'https://github.com/QiskitFallFest23-UNIPA/QiskitFallFest23-UNIPA.github.io'} className="hover:underline text-[#9D5CFD] mt-5"> website </Link>
+                                by Alberto Miserendino, Alessandro Catalano, Gabriele Lo Cascio, Roberto Battaglia, Giovanni La Tona. 
+                            </li>
+                        </ul>                        
                     </div>
-
                 </div>
             </div>
             <Footer />

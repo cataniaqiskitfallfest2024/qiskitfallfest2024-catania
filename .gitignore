@@ -13,6 +13,8 @@
 /.next/
 /out/
 /dist/
+/cataniaqiskitfallfest/
+/.dist**/
 
 # production
 /build

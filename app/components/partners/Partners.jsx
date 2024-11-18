@@ -4,7 +4,7 @@ const Partners = () => {
   return (
     <section id='partners' className="bg-[#F4F4F4] p-5">
       <h1 className="text-6xl font-bold text-center mt-5 text-[#9D5CFD]">Partners</h1>
-      <div className="flex flex-wrap justify-center ">
+      <div className="flex flex-wrap justify-center mt-5">
         <div id="qiskit" className="flex flex-col w-full sm:w-[45%] md:w-[25%] m-5">
           <img 
             className="h-[100px] sm:h-[130px] md:h-[150px] object-contain mix-blend-multiply"

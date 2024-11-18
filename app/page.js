@@ -8,7 +8,7 @@ import Location from "./components/location/Location";
 import './style.css'
 import Footer from "./components/footer/Footer";
 import Organizers from "./components/organizers/Organizers";
-import Sponsors from "./sponsors/Sponsors";
+import Sponsors from "./components/sponsors/Sponsors";
 import Link from "next/link";
 
 
@@ -29,8 +29,8 @@ export default function Home() {
       <Speakers />
       <Agenda/>
       <Location />
+      <Sponsors />
       <Organizers/>
-      {/* <Sponsors /> */}
       <Footer/>
 
     </div>

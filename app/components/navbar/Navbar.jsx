@@ -87,7 +87,7 @@ const Navbar = () => {
         isScrolled ? 'bg-white/60 backdrop-blur-lg text-black' : 'bg-black'
       }`}
     >
-      <div className="flex justify-between items-center md:min-h-[50px] md:mx-10">
+      <div className="flex justify-between items-center md:min-h-[50px] md:mx-10" style={{userSelect: 'none'}}>
         <div className="text-lg md:text-3xl font-semibold">
           <Link href={'/'}><span className={`${isScrolled ? 'text-black' : 'text-white'}`}>Qiskit Fall Fest 2024 </span></Link>
           <span className="text-[#FF7EB5] mx-2">/</span>
@@ -127,6 +127,9 @@ const Navbar = () => {
                 <li className={getLinkClass('#location')}>
                   <a href="#location" onClick={() => handleSectionClick('#location')}>Location</a>
                 </li>
+                <li className={getLinkClass('#sponsors')}>
+                  <a href="#sponsors" onClick={() => handleSectionClick('#sponsors')}>Sponsors</a>
+                </li>
                 <li className={getLinkClass('#organizers')}>
                   <a href="#organizers" onClick={() => handleSectionClick('#organizers')}>Organizers</a>
                 </li>
@@ -139,8 +142,8 @@ const Navbar = () => {
           <li className={getLinkClass('/faq')}>
             <Link href="/faq" onClick={handleLinkClick}>FAQ</Link>
           </li>
-          <li className={getLinkClass('#register')}>
-            <Link href={'https://www.eventbrite.com/e/catania-qiskit-fall-fest-tickets-1029219452087'} onClick={handleLinkClick} >Register</Link>
+          <li className={getLinkClass('#resources')}>
+            <Link href="https://drive.google.com/drive/folders/1uwq9MkZXUuarttT0X__EpoQCIavHdpjC?usp=sharing"><span style={{fontSize: 'larger', fontWeight: 'bold', color: '#9D5CFD'}}>⤓</span> Resources</Link>
           </li>
         </ul>
       </div>
@@ -167,6 +170,9 @@ const Navbar = () => {
                 <li className={getLinkClass('#location')}>
                   <a href="#location" onClick={() => handleSectionClick('#location')}>Location</a>
                 </li>
+                <li className={getLinkClass('#sponsors')}>
+                  <a href="#sponsors" onClick={() => handleSectionClick('#sponsors')}>Sponsors</a>
+                </li>
                 <li className={getLinkClass('#organizers')}>
                   <a href="#organizers" onClick={() => handleSectionClick('#organizers')}>Organizers</a>
                 </li>
@@ -179,8 +185,8 @@ const Navbar = () => {
           <li className={getLinkClass('/faq')}>
             <Link href="/faq">FAQ</Link>
           </li>
-          <li className={getLinkClass('#register')}>
-            <Link href="https://www.eventbrite.com/e/catania-qiskit-fall-fest-tickets-1029219452087">Register</Link>
+          <li className={getLinkClass('#resources')}>
+          <Link href="https://drive.google.com/drive/folders/1uwq9MkZXUuarttT0X__EpoQCIavHdpjC?usp=sharing"><span style={{fontSize: 'larger', fontWeight: 'bold', color: '#9D5CFD'}}>⤓</span> Resources</Link>
           </li>
         </ul>
       )}

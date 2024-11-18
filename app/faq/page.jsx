@@ -84,8 +84,11 @@ export default function page() {
                             >
                              Will participating students be awarded CFUs?
                             </AccordionSummary>
-                            <AccordionDetails>
+                            {/* <AccordionDetails>
                             1.5 CFU will be awarded to students of degree courses at the University of Catania. In any case, you will be issued a certificate of attendance with which you can request recognition of credits from the coordinator of your degree course.
+                            </AccordionDetails> */}
+                            <AccordionDetails>
+                            Partecipants will be issued a certificate of attendance with which you can request recognition of credits from the coordinator of your degree course.
                             </AccordionDetails>
                         </Accordion>
                         <Accordion >
